@@ -4,7 +4,6 @@ const app = document.getElementById('app');
 console.log( app)
 var totalSheets =0;
 
-
 var fullDataSheet =  fetch('https://spreadsheets.google.com/feeds/worksheets/1Jx5a6xuBOc_zmw1nncwRjsjNEs9a6VqPanV5a8JMTrQ/public/full?alt=json').then(function(response){ 
          return response.json()
 }).then(data => {
@@ -12,18 +11,13 @@ var fullDataSheet =  fetch('https://spreadsheets.google.com/feeds/worksheets/1Jx
   totalSheets=data.feed.entry.length;
   console.log('DATA:', totalSheets);
 
-
   for(var i=1;i<=totalSheets;i++){
-
-   var allData = fetch(
+  var allData = fetch(
   "https://spreadsheets.google.com/feeds/list/1Jx5a6xuBOc_zmw1nncwRjsjNEs9a6VqPanV5a8JMTrQ/"+i+"/public/values?alt=json");
-
   allData.then(response => {
     return response.json();
   })
   .then(data => {
-
-
     // Work with JSON data here
     console.log('DATA:', data.feed.entry);
     const entries = data.feed.entry;

@@ -1,0 +1,302 @@
+body {
+  font-family: Austin News Text;
+}
+
+div#app {
+  max-width: 1020px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+h3 {
+  margin: 10px 10px 10px 0px;
+  font-size: 24px;
+}
+.container {
+  max-width: 1020px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.left-side {
+  width: 100%;
+  float: left;
+}
+
+.right-side {
+  width: 35%;
+  float: left;
+}
+
+.landing-header {
+  width: 100%;
+  height: auto;
+  float: left;
+  background-color: #F8F8F8;
+  clear: both;
+  margin-top: 20px;
+}
+
+.landing-head-top {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  float: left;
+  clear: both;
+}
+
+.landing-header-left {
+  width: 55%;
+  margin-left: 5%;
+  height: auto;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.landing-header-left-logo {
+  width: 25%;
+  float: left;    
+}
+
+.landing-header-right {
+  width: 35%;
+  margin-right: 5%;
+  float: right;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.logo-tnc {
+  width: 100%;
+  float: left;
+  clear: both;
+  text-align: center;
+  font-family: Telesans Text;
+  font-size: 10px;
+  opacity: 0.5;
+}
+
+.logo {
+  width: 100%;
+  float: left;
+}
+
+.landing-header-cross {
+  width: 100%;
+  height: auto;
+}
+
+.landing-header-claim-right {
+  width: 50%;
+  float: right;
+
+}
+
+.landing-header-offer {
+  width: 65%;
+  float: left;
+}
+
+
+.landing-header-claim {
+  width: 35%;
+  float: left;
+}
+
+img.gambleaware {
+  width: 60%;
+  float: right;
+  clear: both;
+}
+
+img.header-cross {
+  width: 25px;
+  margin: 22px 58px;
+  clear: both;
+  float: right;
+}
+
+.landing-head-body {
+  width: 100%;
+  height: auto;
+  clear: both;
+}
+
+.landing-body {
+  width: 100%;
+  float: left;
+  background-color: #F8F8F8;
+  clear: both;
+}
+
+.landing-body-top {
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+    clear: both;
+
+}
+
+.landing-body-top-left {
+  width: 20%;
+  height: 50px;
+  float: left;
+  text-align: center;
+  padding-left: 5%;
+}
+
+
+.landing-body-top-center {
+  width: 50%;
+  float: left;
+  height: auto;
+}
+
+
+.landing-body-top-right {
+  width: 25%;
+  height: auto;
+  float: left;
+  padding-top: 22px;
+  text-align: center;
+}
+
+.landing-body-bottom {
+  width: 100%;
+  float: left;
+  clear: both;
+}
+
+.landing-footer {
+    font-family: Telesans Text;
+    font-size: 10px;
+    padding: 0% 5% 0% 5%;
+    opacity: 0.6;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+    color: #E54D24;
+    margin-right: 2%;
+    line-height: 1.6;
+}
+
+ul.landing-list {
+    float: left;
+    padding-left: 0;
+    width: 50%;
+    margin: 0 0 0px 10%;
+    text-align: left;
+    font-weight: 600;
+}
+
+/* buttons */
+
+.effect {
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    padding: 14px 0px;
+    overflow: hidden;
+    background-color: #E54D24;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+h3 {
+  text-align: left;
+  font-size: 26px;
+  margin: 10px 0px;
+}
+
+.landing-header-left-logo {
+  width: 33%;
+
+}
+.container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+.left-side {
+    width: 100%;
+    float: left;
+    clear: both;
+  }
+
+.right-side {
+    width: 100%;
+    float: left;
+    clear: both;
+  }
+
+.landing-header-right {
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+    clear: both;
+    margin-top: 8px;
+  }
+
+.landing-header-left {
+    width: 100%;
+    margin-left: 5%;
+    height: auto;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+    clear: both;
+}
+
+.landing-header-claim {
+    width: 30%;
+    float: left;
+}
+
+
+.landing-header-left {
+    width: 95%;
+
+  }
+
+ul.landing-list {
+    float: left;
+    text-align: left;
+    margin-left: 5%;
+  }
+
+ul li:before {
+    content: '✓';
+    color: #E54D24;
+    margin-right: 0%;
+    line-height: 1.6;
+}
+
+.effect {
+    width: 100%;
+  }
+
+.landing-header-offer {
+    width: 70%;
+    float: left;
+}
+
+p.landing-footer {
+    text-align: justify;
+  }
+
+}
